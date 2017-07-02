@@ -110,7 +110,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DNA.cpp" />
     <ClCompile Include="RosaLind.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problems.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+    <Text Include="output.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

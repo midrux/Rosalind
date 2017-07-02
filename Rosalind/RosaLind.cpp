@@ -1,10 +1,13 @@
-#include <cstdio>
-#include <cstdio>
 #include <iostream>
-
+#include <fstream>
+#include "Problems.h"
 using namespace std;
 
 int main() {
-    cout << "test" << endl;
+    ifstream fin("input.txt");
+    ofstream fout("output.txt");
+    Problems p;
+    p.SolveDNA(fin,fout);
+
     return 0;
 }
