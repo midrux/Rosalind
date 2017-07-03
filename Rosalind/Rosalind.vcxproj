@@ -111,6 +111,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DNA.cpp" />
+    <ClCompile Include="REVC.cpp" />
+    <ClCompile Include="RNA.cpp" />
     <ClCompile Include="RosaLind.cpp" />
   </ItemGroup>
   <ItemGroup>
