@@ -7,7 +7,7 @@ int main() {
     ifstream fin("input.txt");
     ofstream fout("output.txt");
     Problems p;
-    p.SolveREVC(fin,fout);
-
+    p.SolveFIB(fin,fout);
+    //system("PAUSE");
     return 0;
 }
